@@ -1,0 +1,28 @@
+/* RESET.CSS */
+
+/*******************************************/
+/* Also known as Keep It Simple Reset CSS. */
+/* https://github.com/rnyweb/kis-reset-css */
+/*******************************************/
+
+/* Keep everything equal. */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Keep unordered lists without bullets. */
+ol, ul {
+  list-style: none;
+}
+
+/* Keep the default input elements border while is selected. */
+:focus {
+  outline: 0;
+}
+
+/* Keep input autofill for saved credentials transparent. Tested on Microsoft Edge, Mozilla Firefox and Google Chrome. */
+input:-webkit-autofill {
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0 50px white inset;
+}
