@@ -1,7 +1,7 @@
 /* RESET.CSS */
 
 /*******************************************/
-/* Also known as Keep It Simple Reset CSS. */
+/* Keep It Simple Reset CSS                */
 /* https://github.com/rnyweb/kis-reset-css */
 /*******************************************/
 
@@ -11,17 +11,17 @@
   padding: 0;
 }
 
-/* Keep unordered lists without bullets. */
+/* Keep ordered lists(numerical or alphabetical) without numbers or letters and unordered(bulleted) lists without bullets. Mobile devices in some cases will not display properly the numbers, letters and bullets used by ol and ul tags. */
 ol, ul {
   list-style: none;
 }
 
-/* Keep the default input elements border while is selected. */
+/* Keep the default input elements border color while is selected. */
 :focus {
   outline: 0;
 }
 
-/* Keep input autofill for saved credentials transparent. Tested on Microsoft Edge, Mozilla Firefox and Google Chrome. */
+/* Keep input autofill background color for saved credentials transparent. Tested on Microsoft Edge, Mozilla Firefox and Google Chrome. */
 input:-webkit-autofill {
     background-color: transparent !important;
     -webkit-box-shadow: 0 0 0 50px white inset;
