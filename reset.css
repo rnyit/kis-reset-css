@@ -18,6 +18,7 @@ ol, ul {
 }
 
 /* Keep the default border for input and others elements while is selected. Default color is different on each browser. */
+
 :focus {
   outline: 0;
 }
@@ -31,8 +32,8 @@ input:-webkit-autofill {
 
 /* Keep hr tag looking the same on all browsers. Default color is different on each browser. */
 hr {
-  border: none;
-  height: 1px;
-  color: #000000; /* Old Internet Explorer browser. */
   background-color: #000000; /* Modern browsers. */
+  border: none;
+  color: #000000; /* Old Internet Explorer browser. */
+  height: 1px;
 }
