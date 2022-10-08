@@ -5,24 +5,34 @@
 /* https://github.com/rnyweb/kis-reset-css */
 /*******************************************/
 
-/* Keep everything equal. */
+/* Keep everything equal just like the name of this file says, keep it simple! */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Keep ordered lists(numerical or alphabetical) without numbers or letters and unordered(bulleted) lists without bullets. Mobile devices in some cases will not display properly the numbers, letters and bullets used by ol and ul tags. */
+/* Keep ordered lists(numerical or alphabetical) without numbers or letters and unordered(bulleted) lists without bullets.
+Mobile devices in some cases will not display properly the numbers, letters and bullets used by ol and ul tags. */
 ol, ul {
   list-style: none;
 }
 
-/* Keep the default input elements border color while is selected. */
+/* Keep the default border for input and others elements while is selected. Default color is different on each browser. */
 :focus {
   outline: 0;
 }
 
-/* Keep input autofill background color for saved credentials transparent. Tested on Microsoft Edge, Mozilla Firefox and Google Chrome. */
+/* Keep input autofill background color for saved credentials transparent. Tested on Microsoft Edge, Mozilla Firefox and
+Google Chrome. */
 input:-webkit-autofill {
     background-color: transparent !important;
     -webkit-box-shadow: 0 0 0 50px white inset;
+}
+
+/* Keep hr tag looking the same on all browsers. Default color is different on each browser. */
+hr {
+  border: none;
+  height: 1px;
+  color: #000000; /* Old Internet Explorer browser. */
+  background-color: #000000; /* Modern browsers. */
 }
