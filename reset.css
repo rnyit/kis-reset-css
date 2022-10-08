@@ -18,7 +18,6 @@ ol, ul {
 }
 
 /* Keep the default border for input and others elements while is selected. Default color is different on each browser. */
-
 :focus {
   outline: 0;
 }
