@@ -25,8 +25,8 @@ ol, ul {
 /* Keep input autofill background color for saved credentials transparent. Tested on Microsoft Edge, Mozilla Firefox and
 Google Chrome. */
 input:-webkit-autofill {
-    background-color: transparent !important;
-    -webkit-box-shadow: 0 0 0 50px white inset;
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0 50px white inset;
 }
 
 /* Keep hr tag looking the same on all browsers. Default color is different on each browser. */
