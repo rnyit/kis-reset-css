@@ -11,6 +11,11 @@
   padding: 0;
 }
 
+/* Keep the vertical scroll bar despite the fact there is not enough content on the page. */
+body {
+  overflow-y: scroll;
+}
+
 /* Keep ordered lists(numerical or alphabetical) without numbers or letters and unordered(bulleted) lists without bullets.
 Mobile devices in some cases will not display properly the numbers, letters and bullets used by ol and ul tags. */
 ol, ul {
