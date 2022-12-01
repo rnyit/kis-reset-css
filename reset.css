@@ -44,7 +44,7 @@ hr {
 
 /* Keep fieldset tag as standard as possible. Some space is necessary. */
 fieldset {
-  padding: 12px;
+  padding: 6px;
 }
 
 /* Keep textarea tag width the same while using padding without overflowing. */
