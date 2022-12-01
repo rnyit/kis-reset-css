@@ -76,6 +76,7 @@ fieldset {
   Keep textarea tag width the same while using padding without overflowing.
 */
 textarea {
+  border: 1px solid #000000;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
