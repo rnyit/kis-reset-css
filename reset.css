@@ -5,7 +5,9 @@
 /* https://github.com/rnyweb/kis-reset-css */
 /*******************************************/
 
-/* Keep everything equal just like the name of this file says, keep it simple! */
+/*
+  Keep everything equal just like the name of this file says, keep it simple!
+*/
 * {
   margin: 0;
   padding: 0;
@@ -16,38 +18,60 @@ body {
   overflow-y: scroll;
 }
 
-/* Keep ordered lists(numerical or alphabetical) without numbers or letters and unordered(bulleted) lists without bullets.
-Mobile devices in some cases will not display properly the numbers, letters and bullets used by ol and ul tags. */
+/*
+  Keep ordered lists(numerical or alphabetical) without numbers or letters and unordered(bulleted) lists without bullets.
+  Mobile devices in some cases will not display properly the numbers, letters and bullets used by ol and ul tags.
+*/
 ol, ul {
   list-style: none;
 }
 
-/* Keep the default border for input and others elements while is selected. Default color is different on each browser. */
+/*
+  Keep the default border for input and others elements while is selected. Default color is different on each browser.
+*/
 :focus {
   outline: 0;
 }
 
-/* Keep input autofill background color for saved credentials transparent. Tested on Microsoft Edge, Mozilla Firefox and
-Google Chrome. */
+/*
+  Keep input autofill background color for saved credentials transparent.
+  Tested on Microsoft Edge, Mozilla Firefox and Google Chrome.
+*/
 input:-webkit-autofill {
   background-color: transparent !important;
   -webkit-box-shadow: 0 0 0 50px white inset;
 }
 
-/* Keep hr tag looking the same on all browsers. Default color is different on each browser. */
-hr {
+/*
+  Custom hr tag.
+  Keep it looking the same on all browsers. Default color is different on each browser.
+*/
+.hr {
   background-color: #000000; /* Modern browsers. */
   border: none;
   color: #000000; /* Old Internet Explorer browser. */
   height: 1px;
 }
 
-/* Keep fieldset tag as standard as possible. Some space is necessary. */
+/*
+  Custom br tag.
+  Keep it default.
+*/
+.br {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/*
+  Keep fieldset tag as standard as possible. Some space is necessary.
+*/
 fieldset {
   padding: 6px;
 }
 
-/* Keep textarea tag width the same while using padding without overflowing. */
+/*
+  Keep textarea tag width the same while using padding without overflowing.
+*/
 textarea {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
