@@ -44,7 +44,8 @@ input:-webkit-autofill {
 
 /*
   Custom hr tag.
-  Keep it looking the same on all browsers. Default color is different on each browser.
+  Keep it looking the same on all browsers.
+  Default color is different on each browser.
 */
 .hr {
   background-color: #000000; /* Modern browsers. */
@@ -63,10 +64,12 @@ input:-webkit-autofill {
 }
 
 /*
-  Keep fieldset tag as standard as possible. Some space is necessary.
+  Keep fieldset tag as standard as possible.
+  Some space is necessary.
 */
 fieldset {
   padding: 6px;
+  border: 1px solid #000000;
 }
 
 /*
