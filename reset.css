@@ -2,7 +2,7 @@
 
 /*******************************************/
 /* Keep It Simple Reset CSS                */
-/* https://github.com/rnyweb/kis-reset-css */
+/* https://github.com/rnyit/kis-reset-css */
 /*******************************************/
 
 /*
@@ -13,7 +13,9 @@
   padding: 0;
 }
 
-/* Keep the vertical scroll bar despite the fact there is not enough content on the page. */
+/*
+  Keep the vertical scroll bar despite the fact there is not enough content on the page.
+*/
 body {
   overflow-y: scroll;
 }
