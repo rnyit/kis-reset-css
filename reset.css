@@ -1,86 +1,43 @@
-/* RESET.CSS */
-
 /*******************************************/
+/* RESET.CSS                               */
 /* Keep It Simple Reset CSS                */
-/* https://github.com/rnyit/kis-reset-css */
+/* https://github.com/rnyit/kis-reset-css  */
 /*******************************************/
 
-/*
-  Keep everything equal just like the name of this file says, keep it simple!
-*/
+/* Keep everything equal */
 * {
   margin: 0;
   padding: 0;
 }
 
-/*
-  Keep the vertical scroll bar despite the fact there is not enough content on the page.
-*/
+/* Keep the vertical scroll bar despite the fact there is not enough content on the page. */
 body {
   overflow-y: scroll;
 }
 
-/*
-  Keep ordered lists(numerical or alphabetical) without numbers or letters and unordered(bulleted) lists without bullets.
-  Mobile devices in some cases will not display properly the numbers, letters and bullets used by ol and ul tags.
-*/
+/* Keep ordered lists(ol tag) without numbers or letters and unordered lists(ul tag) without bullets. */
+/* Mobile devices in some cases will not display properly the numbers, letters and bullets used by ol and ul tags. */
 ol, ul {
   list-style: none;
 }
 
-/*
-  Keep the default border for input and others elements while is selected.
-  Default color is different on each browser.
-*/
+/* Keep the default border for input and other elements while are selected. */
+/* Default color is different on each browser. */
 :focus {
   outline: 0;
 }
 
-/*
-  Keep input autofill background color for saved credentials transparent.
-  Tested on Microsoft Edge, Mozilla Firefox and Google Chrome.
-*/
+/* Keep input autofill background color for saved credentials transparent across any browser clients. */
 input:-webkit-autofill {
   background-color: transparent !important;
   -webkit-box-shadow: 0 0 0 50px white inset;
 }
 
-/*
-  Custom hr tag.
-  Keep it looking the same on all browsers.
-  Default color is different on each browser.
-*/
-.hr {
-  background-color: #000000; /* Modern browsers. */
+/* Keep hr tag in the same color on any browser clients. */
+/* Default color is different on each browser client. */
+hr {
+  background-color: #000000; /* Modern browser clients. */
   border: none;
   color: #000000; /* Old Internet Explorer browser. */
   height: 1px;
-}
-
-/*
-  Custom br tag.
-  Keep it default.
-*/
-.br {
-  display: block;
-  margin-bottom: 12px;
-}
-
-/*
-  Keep fieldset tag as standard as possible.
-  Some space is necessary.
-*/
-fieldset {
-  padding: 6px;
-  border: 1px solid #000000;
-}
-
-/*
-  Keep textarea tag width the same while using padding without overflowing.
-*/
-textarea {
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
 }
