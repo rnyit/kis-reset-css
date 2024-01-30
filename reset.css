@@ -10,7 +10,7 @@
   padding: 0;
 }
 
-/* Keep the vertical scroll bar despite the fact there is not enough content on the page. */
+/* Keep the vertical scroll bar despite the fact there is not enough content on the webpage. */
 body {
   overflow-y: scroll;
 }
@@ -21,7 +21,7 @@ ol, ul {
   list-style: none;
 }
 
-/* Keep the border color for input and other elements while are selected across any browser clients. */
+/* Keep the border color for input and other elements while are selected. */
 /* Default border color is different on each browser client. */
 :focus {
   outline: 0;
@@ -36,7 +36,7 @@ hr {
   height: 1px;
 }
 
-/* Keep input autofill background color for saved credentials transparent across any browser clients. */
+/* Keep input autofill background color transparent for saved credentials. */
 input:-webkit-autofill {
   background-color: transparent !important;
   -webkit-box-shadow: 0 0 0 50px white inset;
